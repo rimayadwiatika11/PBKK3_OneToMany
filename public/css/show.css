@@ -1,0 +1,41 @@
+/* style.css */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #98bafe;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+  }
+
+  .container {
+    background-color: #fdfdfd;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    text-align: center;
+  }
+
+  h4 {
+    font-size: 1.5em;
+    color: #333;
+  }
+
+  .author-info {
+    margin-top: 20px;
+  }
+
+  .author-info p {
+    margin: 10px 0;
+    font-size: 1.2em;
+  }
+  .book-info {
+    margin-top: 20px;
+  }
+
+  .book-info p {
+    margin: 10px 0;
+    font-size: 1.2em;
+  }

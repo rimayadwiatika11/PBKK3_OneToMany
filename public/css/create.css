@@ -1,0 +1,57 @@
+/* CSS for your form */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #98bafe;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.container {
+    background-color: #fdfdfd;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    text-align: center;
+}
+
+h2 {
+    font-size: 1.5em;
+    color: #4d413f;
+    margin-bottom: 20px;
+}
+
+div {
+    margin-bottom: 15px;
+}
+
+label {
+    display: block;
+    font-weight: bold;
+}
+
+input[type="text"],
+textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1em;
+}
+
+input[type="submit"] {
+    background-color: #3c73fe;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1.2em;
+}
+
+input[type="submit"]:hover {
+    background-color: #430fd0 5, 160;
+}
